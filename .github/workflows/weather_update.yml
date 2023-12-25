@@ -5,8 +5,11 @@ on:
     - cron: '0 8,20 * * *'  # Schedule to run at 8 am and 8 pm UTC
 
 jobs:
+    job_name:
 
-    steps:
+     runs-on: windows-latest
+
+     steps:
 
       - name: Run Python Script
         run:  C:\Users\moeez\Desktop\GitHub Repositories\weather webscrape and dataset\automated-islamabad-weather-web-scrape-at-8am-and-8-pm-\Webscraping= automated-islamabad-weather-web-scrape-at-8am-and-8-pm-/Webscraping= Weather Scrapper GitHub.ipynb

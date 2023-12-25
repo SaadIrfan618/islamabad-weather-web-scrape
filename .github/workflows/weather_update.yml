@@ -12,20 +12,6 @@ jobs:
      steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-<<<<<<< HEAD
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
-      - name: Install dependencies
-        run: |
-          pip install requests
-          pip install beautifulsoup4
-          pip install pandas
-=======
->>>>>>> origin
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -44,8 +30,4 @@ jobs:
           jupyter nbconvert --to script "Webscraping= Weather Scrapper GitHub.ipynb"
           
       - name: Run Python Script
-<<<<<<< HEAD
         run: python "Webscraping= Weather Scrapper GitHub.ipynb"
-=======
-        run: python "Webscraping= Weather Scrapper GitHub.ipynb"
->>>>>>> origin

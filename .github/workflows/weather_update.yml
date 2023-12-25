@@ -5,14 +5,14 @@ on:
     - cron: '*/1 * * * *'  # Schedule to run every minute
 
 jobs:
-    build:
-     name:
+  build:
+    name:
 
-     runs-on: windows-latest
+    runs-on: ubuntu-latest
 
-     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    steps:
+     - name: Checkout Repository
+       uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2

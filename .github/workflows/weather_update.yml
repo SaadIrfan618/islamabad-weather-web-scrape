@@ -30,4 +30,4 @@ jobs:
           jupyter nbconvert --to script "Webscraping= Weather Scrapper GitHub.ipynb"
           
       - name: Run Python Script
-        run: python "Webscraping= Weather Scrapper GitHub.ipynb"
+        run: python "Webscraping= Weather Scrapper GitHub.py"

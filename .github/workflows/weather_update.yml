@@ -2,7 +2,7 @@ name: Weather Update
 
 on:
   schedule:
-    - cron: '0/1 * * * *'  # Schedule to run every minute
+    - cron: '*/1 * * * *'  # Schedule to run every minute
 
 jobs:
      job_name:

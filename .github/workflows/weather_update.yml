@@ -5,7 +5,8 @@ on:
     - cron: '*/1 * * * *'  # Schedule to run every minute
 
 jobs:
-     job_name:
+    build:
+     name:
 
      runs-on: windows-latest
 

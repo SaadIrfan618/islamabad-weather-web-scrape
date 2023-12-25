@@ -6,8 +6,7 @@ on:
 
 jobs:
   build:
-    name: fetching and storing weather data
-
+    name: Fetch and Save Weather Data
     runs-on: ubuntu-latest
 
     steps:

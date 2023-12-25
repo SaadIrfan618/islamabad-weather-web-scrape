@@ -2,7 +2,7 @@ name: Weather Update
 
 on:
   schedule:
-    - cron: '0 8,20 * * *'  # Schedule to run at 8 am and 8 pm UTC
+    - cron: '0/1 * * * *'  # Schedule to run at 8 am and 8 pm UTC
 
 jobs:
     job_name:
